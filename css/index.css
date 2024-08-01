@@ -1,0 +1,59 @@
+
+header {
+    background-color: #7c5e99;
+    border-bottom: 10px solid #000;
+    padding: 10px 20px;
+display: flex;
+justify-content: space-between;
+}
+
+nav {
+    text-align: right;
+}
+
+a {
+    display: inline-flex;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+font-family: "Fira Code";
+font-weight: 500;
+text-decoration: none;
+margin-right: 30px;
+}
+/* 
+a:brefore diz que antes da tag A vai ter essas informações 
+OBS: Content é obrigatório
+
+*/
+a:before {
+content: "";
+background-color: #f25a70;
+width: 10px;
+height: 10px;
+margin-right: 10px;
+
+
+}
+#button {
+background-color: #f25a70;
+display: inline-block;
+padding: 18px 20px;
+box-shadow: 5px 5px 0 #000;
+margin: 0px;
+}
+
+#button:hover {
+color: white;
+background-color: aqua;
+border-radius: 8px;
+transition: background 0.2s;
+text-decoration:underline;
+
+}
+
+a:hover {
+
+    color: #000;
+    text-decoration:underline;
+}

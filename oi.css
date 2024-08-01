@@ -1,0 +1,28 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+header {
+    display: flex;
+    background-color: aqua;
+    align-items: center;
+    height: 80px;
+   
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Fira Code';
+    font-weight: 500;
+    color: #fff;
+    font-size: 20px;
+}
+
+img {
+    display: block;
+    width: 60px;
+    height: 60px;
+}
